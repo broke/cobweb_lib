@@ -1,0 +1,13 @@
+[package]
+name = "cobweb_cli"
+version = "0.1.0"
+authors = ["Gunnar Nitsche <broke@in-fucking.space>"]
+edition = "2018"
+
+[dependencies]
+cobweb_lib = {path = "../cobweb_lib"}
+clap = { version = "2.33" }
+chrono = "0.4"
+user = "0.1"
+yansi = "0.5"
+tempfile = "3.2"
